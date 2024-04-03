@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/shuja-nodejs-postgres
-  tag: ''
+  tag: cb570f9982a5a15f006508268455e11ff78192f4
   pullPolicy: Always
 
 service:
