@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shuja-nodejs-postgres"
+  description: "nothing special"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/shuja-nodejs-postgres"
+    argocd/app-name: "shuja-nodejs-postgres"
+  links:
+    - url: https://shuja-nodejs-postgres.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
